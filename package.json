@@ -1,0 +1,28 @@
+{
+  "name": "test-babel",
+  "version": "1.0.0",
+  "description": "test Babel",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yooyklon/Babel.git"
+  },
+  "author": "Dmitry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yooyklon/Babel/issues"
+  },
+  "homepage": "https://github.com/yooyklon/Babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0"
+  },
+  "dependencies": {
+    "core-js": "^3.22.5"
+  }
+}

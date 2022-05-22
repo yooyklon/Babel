@@ -1,0 +1,11 @@
+{
+ "present": [
+  [
+   "@babel/present-env",
+   {
+    "useBuiltIns": "usage",
+    "corejs": 3
+   }
+  ]
+ ]
+}
